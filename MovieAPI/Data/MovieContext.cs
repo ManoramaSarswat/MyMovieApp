@@ -5,7 +5,7 @@ namespace MovieAPI.MovieData
 {
     public class MovieContext : DbContext
     {
-         public MovieContext(DbContextOptions options) : base(options)
+         public MovieContext(DbContextOptions<MovieContext> options) : base(options)
          {
 
          }

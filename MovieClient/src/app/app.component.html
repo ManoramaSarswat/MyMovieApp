@@ -1,0 +1,15 @@
+<app-nav></app-nav>
+
+<div class="card-group">
+  <div class="card" style="margin-top: 100px">
+    <div class="card-columns" style="word-wrap: break-word ;">
+    <!-- <ul>
+      <li *ngFor="let movie of movies">{{ movie.id }} - {{ movie.movieName }}</li>
+    </ul> -->
+
+    <!-- <div class="cardsArray" > -->
+      <app-movie-card *ngFor="let movie of movies" [movie]="movie"></app-movie-card>
+    <!-- </div> -->
+    </div>
+  </div>
+</div>

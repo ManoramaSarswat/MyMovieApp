@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MovieAPI.MovieData.Migrations
+namespace MovieAPI.Data.Migrations
 {
-    public partial class InitialDataMigration : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -17,12 +17,10 @@ namespace MovieAPI.MovieData.Migrations
                     Location = table.Column<string>(type: "TEXT", nullable: true),
                     Plot = table.Column<string>(type: "TEXT", nullable: true),
                     Poster = table.Column<string>(type: "TEXT", nullable: true),
-                    SoundEffects = table.Column<string>(type: "TEXT", nullable: true),
-                    Stills = table.Column<string>(type: "TEXT", nullable: true),
                     Title = table.Column<string>(type: "TEXT", nullable: true),
-                    ImdbId = table.Column<string>(type: "TEXT", nullable: true),
-                    ListingType = table.Column<string>(type: "TEXT", nullable: true),
-                    ImdbRating = table.Column<string>(type: "TEXT", nullable: true)
+                    imdbID = table.Column<string>(type: "TEXT", nullable: true),
+                    listingType = table.Column<string>(type: "TEXT", nullable: true),
+                    imdbRating = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
