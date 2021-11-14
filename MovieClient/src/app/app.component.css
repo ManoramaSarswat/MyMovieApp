@@ -1,0 +1,12 @@
+.grid
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap:1rem;
+}
+
+.card
+{
+  border: 0px;
+  margin: 3rem;
+}

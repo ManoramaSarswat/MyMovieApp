@@ -22,7 +22,6 @@ D:\Shail\MovieApp\MyMovieApp\MovieAPI\obj\Debug\net5.0\staticwebassets\MovieAPI.
 D:\Shail\MovieApp\MyMovieApp\MovieAPI\obj\Debug\net5.0\staticwebassets\MovieAPI.StaticWebAssets.xml
 D:\Shail\MovieApp\MyMovieApp\MovieAPI\obj\Debug\net5.0\scopedcss\bundle\MovieAPI.styles.css
 D:\Shail\MovieApp\MyMovieApp\MovieAPI\obj\Debug\net5.0\MovieAPI.RazorTargetAssemblyInfo.cache
-D:\Shail\MovieApp\MyMovieApp\MovieAPI\obj\Debug\net5.0\MovieAPI.csproj.CopyComplete
 D:\Shail\MovieApp\MyMovieApp\MovieAPI\obj\Debug\net5.0\MovieAPI.dll
 D:\Shail\MovieApp\MyMovieApp\MovieAPI\obj\Debug\net5.0\ref\MovieAPI.dll
 D:\Shail\MovieApp\MyMovieApp\MovieAPI\obj\Debug\net5.0\MovieAPI.pdb
